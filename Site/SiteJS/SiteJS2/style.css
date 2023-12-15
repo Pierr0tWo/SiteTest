@@ -1,6 +1,12 @@
 body{
-    text-align: center;    
+	text-align: center;    
 }
-h1{
+#html{
     color : MediumSeaGreen;
+}
+#css{
+    color : darkorange;
+}
+#javascript{
+    color : tomato;
 }
