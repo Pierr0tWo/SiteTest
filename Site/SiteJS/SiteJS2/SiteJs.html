@@ -1,15 +1,36 @@
 <!doctype html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<title>HTML+CSS+JS</title>
-		<link rel="stylesheet" href="style.css">
+    <head>
+    	<meta charset="utf-8">
+    	<title>Canvas API</title>
+    	<link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
-	</head>
-	<body>
-		<h1 id="html">HTML pour le contenu ;</h1>
-        <h1 id="css">CSS pour le style ;</h1>
-        <h1 id="javascript">et JavaScript pour l'interractivité...</h1>
-		<button onclick="maFonction()">Cliquer ici</button>
-	</body>	
+    </head>
+    <body>
+        <h1 id="html">Le dessin d'une maison dans un Canvas ;</h1>
+    	<canvas id="my-house" width="300" height="300"></canvas>
+
+        <script>
+            const canvas = document.getElementById('my-house');
+            const ctx = canvas.getContext('2d');
+
+            // Set line width
+            ctx.lineWidth = 10;
+
+            // Wall
+            ctx.strokeRect(75, 140, 150, 110);
+
+            // Door
+            ctx.fillRect(130, 190, 40, 60);
+
+            // Roof
+            ctx.beginPath();
+            ctx.moveTo(50, 140);
+            ctx.lineTo(150, 60);
+            ctx.lineTo(250, 140);
+            ctx.closePath();
+            ctx.stroke();
+        </script>
+
+    </body>	
 </html>
