@@ -1,20 +1,20 @@
 html, body {
-    background-color: rgb(150, 0, 7)
+    background-color: rgb(172, 1, 10)
   }
     h1{
-    color: rgb(0, 80, 255);
+    color: rgb(12, 72, 192);
   }
     h2{
-    color: rgb(0, 80, 255);
+    color: rgb(17, 72, 192);
     }
   u{
-    color: rgb(0, 80, 255);
+    color: rgb(17, 72, 192);
     }
     h4{
-    color: rgb(0, 80, 255);
+    color: rgb(17, 72, 192);
     }
   p{
-    color: rgb(0, 80, 255);
+    color: rgb(17, 72, 192);
     }
     h1{font-family: "Fira Sans", Arial, sans-serif;}
     h2{font-family: "Fira Sans", Arial, sans-serif;}
