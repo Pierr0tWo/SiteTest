@@ -27,15 +27,15 @@ html, body
     u{font-family: "Fira Sans", Arial, sans-serif;}
   hr {
       border: none;
-      border-top: 3px double #333;
-      color: #333;
+      border-top: 3px double #fff;
+      color: #fff;
       overflow: visible;
       text-align: center;
       height: 5px;
     }
     
   hr::after {
-      background: #fff;
+      background: rgb(0, 0, 100);
       content: '><';
       padding: 0 4px;
       position: relative;
